@@ -23,7 +23,7 @@ public class SiteConfig extends SystemTestCase4 {
 	
 	
 	@Test
-	@TestProperties(name = "Validate that the current user has the features : ${features}" ,paramsInclude = { "features" })
+	@TestProperties(name = "Validate that the current user has the features : ${features} (Via DB)" ,paramsInclude = { "features" })
 	public void ValidateCurrentUserFeaturesContains() throws Exception {
 		String featuresList = DBQuerys.getSiteConfigFeatures(CommonFlows.getEmail());
 		List<String> listOfFeatures = Arrays.asList(featuresList.split(","));
@@ -33,7 +33,7 @@ public class SiteConfig extends SystemTestCase4 {
 	}
 	
 	@Test
-	@TestProperties(name = "Validate that the current user does not have the features : ${features}" ,paramsInclude = { "features" })
+	@TestProperties(name = "Validate that the current user does not have the features : ${features} (Via DB)" ,paramsInclude = { "features" })
 	public void ValidateCurrentUserFeaturesDoesntContains() throws Exception {
 		String featuresList = DBQuerys.getSiteConfigFeatures(CommonFlows.getEmail());
 		List<String> listOfFeatures = Arrays.asList(featuresList.split(","));

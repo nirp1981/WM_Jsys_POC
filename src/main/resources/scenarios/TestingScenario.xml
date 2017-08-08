@@ -18,6 +18,7 @@
         <antcallback target="t1"/>
         <antcallback target="t2"/>
         <antcallback target="t3"/>
+        <antcallback target="t4"/>
     </target>
     <target name="t0">
         <jsystem showoutput="true">
@@ -49,6 +50,14 @@
             <sysproperty key="jsystem.parent.uuid" value="${jsystem.parent.uuid}.${jsystem.uuid}"/>
             <sysproperty key="jsystem.parent.name" value="${jsystem.parent.name}.${ant.project.name}"/>
             <test name="walkme.editor.plugins.Plugins.validatePluginIsLatestVersion"/>
+        </jsystem>
+    </target>
+    <target name="t4">
+        <jsystem showoutput="true">
+            <sysproperty key="jsystem.uuid" value="e853ba10-7a17-4e56-8f26-782cec9b560e"/>
+            <sysproperty key="jsystem.parent.uuid" value="${jsystem.parent.uuid}.${jsystem.uuid}"/>
+            <sysproperty key="jsystem.parent.name" value="${jsystem.parent.name}.${ant.project.name}"/>
+            <test name="walkme.analytics.Navigation.GoToAnalyticsPane"/>
         </jsystem>
     </target>
 </project>
