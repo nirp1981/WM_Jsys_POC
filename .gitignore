@@ -1,3 +1,9 @@
 /target/
 lib/
 log/
+jsystem0.log
+jsystem.properties.bu
+difido.properties
+runnerState.properties
+jsystem.properties
+.testdir.tmp
