@@ -2,7 +2,6 @@ package walkme.editor.deployables.classes;
 
 import java.io.Serializable;
 
-import jsystem.framework.scenario.UseProvider;
 import walkme.automation.core.common.classes.deployables.Step;
 import walkme.automation.core.shared.Enums.StepType;
 

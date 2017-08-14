@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 
 import jsystem.framework.ParameterProperties;
 import walkme.automation.core.common.classes.deployables.Launcher;
-import walkme.automation.core.common.classes.deployables.Names.DeployableText;
 import walkme.automation.core.editor.elements.ActionSteps.ActionTypes;
 
 

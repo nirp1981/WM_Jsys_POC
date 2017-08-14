@@ -1,8 +1,9 @@
 package infra.browser;
 
-import static walkme.automation.core.common.FlowExtensions.*;
+import static walkme.automation.core.common.FlowExtensions.browser;
 
 import org.junit.Test;
+
 import jsystem.framework.ParameterProperties;
 import jsystem.framework.TestProperties;
 import jsystem.framework.scenario.UseProvider;

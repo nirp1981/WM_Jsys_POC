@@ -5,12 +5,12 @@ import static walkme.automation.core.common.FlowExtensions.playerApi;
 
 import org.junit.Test;
 
-import walkme.editor.deployables.classes.DeployablesStack;
 import jsystem.framework.ParameterProperties;
 import jsystem.framework.TestProperties;
 import junit.framework.SystemTestCase4;
 import walkme.automation.core.common.classes.deployables.Deployable;
 import walkme.automation.core.common.classes.deployables.Launcher;
+import walkme.editor.deployables.classes.DeployablesStack;
 
 public class Launchers extends SystemTestCase4 {
 

@@ -1,17 +1,18 @@
 package walkme.player.deployables;
 
-import static walkme.automation.core.common.FlowExtensions.*;
+import static walkme.automation.core.common.FlowExtensions.editorService;
 import static walkme.automation.core.common.FlowExtensions.playerApi;
+import static walkme.automation.core.common.FlowExtensions.playerService;
 
 import org.junit.Test;
 
-import walkme.editor.deployables.classes.DeployablesStack;
 import jsystem.framework.ParameterProperties;
 import jsystem.framework.TestProperties;
 import junit.framework.SystemTestCase4;
 import walkme.automation.core.common.classes.deployables.Deployable;
 import walkme.automation.core.common.classes.deployables.WalkThru;
 import walkme.automation.core.infrastracture.player.PlayerElements.BalloonButtons;
+import walkme.editor.deployables.classes.DeployablesStack;
 
 public class WalkThrus extends SystemTestCase4 {
 

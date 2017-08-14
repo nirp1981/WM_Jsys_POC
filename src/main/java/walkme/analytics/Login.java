@@ -1,5 +1,5 @@
 package walkme.analytics;
-import static walkme.automation.core.common.FlowExtensions.*;
+import static walkme.automation.core.common.FlowExtensions.analyticsService;
 
 import org.junit.Test;
 

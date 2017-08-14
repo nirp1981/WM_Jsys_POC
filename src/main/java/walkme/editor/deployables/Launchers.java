@@ -1,21 +1,21 @@
 package walkme.editor.deployables;
 
-import static walkme.automation.core.common.FlowExtensions.*;
+import static walkme.automation.core.common.FlowExtensions.editorService;
 
 import java.util.HashMap;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
 
-import walkme.editor.deployables.classes.DeployablesStack;
 import jsystem.framework.ParameterProperties;
 import jsystem.framework.TestProperties;
+import jsystem.framework.scenario.Parameter;
 import junit.framework.SystemTestCase4;
 import walkme.automation.core.common.classes.deployables.Launcher;
 import walkme.automation.core.common.classes.wmitems.CapturedElement;
 import walkme.automation.core.common.classes.wmitems.DeployableAction;
 import walkme.automation.core.editor.elements.ActionSteps.ActionTypes;
-import jsystem.framework.scenario.Parameter;
+import walkme.editor.deployables.classes.DeployablesStack;
 
 public class Launchers extends SystemTestCase4 {
 

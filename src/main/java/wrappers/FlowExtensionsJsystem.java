@@ -4,10 +4,21 @@ import walkme.automation.common.config.TestConfig;
 import walkme.automation.common.config.XmlConfig;
 import walkme.automation.common.config.XmlConfig.ConfigEntry;
 import walkme.automation.core.common.FlowExtensions;
+import walkme.automation.core.testsetup.CommonFlows;
 
 public class FlowExtensionsJsystem extends FlowExtensions{
 	
 	public static ConfigEntry originalConf;
+	
+	public static String getUserEmail(String email){
+		if(email.toLowerCase().equals("default")){
+			return CommonFlows.getEmail();
+		}
+		else{
+			return email;
+		}
+	}
+	
 	
 	public static void startBrowserExecution(String browserName) throws Exception {
 		originalConf = TestConfig.getInstance().getData();

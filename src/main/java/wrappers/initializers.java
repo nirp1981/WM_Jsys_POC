@@ -2,7 +2,6 @@ package wrappers;
 
 import jsystem.framework.RunProperties;
 import walkme.automation.core.common.PertinaciousTester;
-import walkme.automation.core.shared.Variables;
 
 public class initializers {
 

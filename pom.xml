@@ -12,7 +12,13 @@
 			<id>top-q</id>
 			<url>http://maven.top-q.co.il/content/groups/public</url>
 		</repository>
+<!-- 	    <repository>
+	        <id>central</id>
+	        <name>aeebe5d11896-releases</name>
+	        <url>https://artifactory.walkmedev.com/artifactory/libs-snapshot-local</url>
+	    </repository> -->
 	</repositories>
+	
 	<pluginRepositories>
 		<pluginRepository>
 			<id>top-q</id>

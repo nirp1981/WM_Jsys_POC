@@ -1,7 +1,9 @@
 package walkme.editor.publish;
 
 import static walkme.automation.core.common.FlowExtensions.editorService;
+
 import org.junit.Test;
+
 import jsystem.framework.TestProperties;
 import junit.framework.SystemTestCase4;
 

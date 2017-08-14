@@ -1,5 +1,6 @@
 package infra.html;
-import static walkme.automation.core.common.FlowExtensions.*;
+import static walkme.automation.core.common.FlowExtensions.htmlApi;
+
 import org.junit.Test;
 import org.openqa.selenium.By;
 

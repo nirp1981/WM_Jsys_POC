@@ -4,14 +4,14 @@ import static walkme.automation.core.common.FlowExtensions.editorService;
 
 import org.junit.Test;
 
-import walkme.editor.deployables.classes.DeployablesStack;
-import walkme.editor.deployables.classes.OStep;
-import walkme.editor.deployables.classes.OWalkThru;
 import jsystem.framework.ParameterProperties;
 import jsystem.framework.TestProperties;
 import jsystem.framework.scenario.UseProvider;
 import junit.framework.SystemTestCase4;
 import walkme.automation.core.common.classes.deployables.WalkThru;
+import walkme.editor.deployables.classes.DeployablesStack;
+import walkme.editor.deployables.classes.OStep;
+import walkme.editor.deployables.classes.OWalkThru;
 
 public class WalkThrus extends SystemTestCase4 {
 
